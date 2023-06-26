@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+}
+*{
+    margin: 0;padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#texbox{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 320px;
+    height: 60px;
+    background-image: url(btn_bg.jpeg);
+}
+.oper, .num, .btn{
+    border: 2px solid ;
+    border-radius: 10px;
+    width: 77px;
+    height: 50px;
+    cursor: pointer;
+    background-image: url(btn_bg.jpeg);
+    background-size: cover;
+}
+#AC , #eq{
+    border: 2px solid ;
+    border-radius: 10px;
+    width: 160px;
+    height: 50px;
+    background-image: url(btn_bg.jpeg);
+    background-size: cover;
+    cursor: pointer;
+}
